@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<POLL TYPE="named" SHOWTIMER="yes" ALARM="2:4" NOANSWER="yes" SHOWRESPONSE="yes">
+
+<QUESTION TYPE="mcone" TITLE="C++&nbsp;Compiler&nbsp;will&nbsp;always&nbsp;provide&nbsp;default&nbsp;constructor&nbsp;in&nbsp;class.">
+<ANSWER ISCORRECT="false">yes</ANSWER>
+<ANSWER ISCORRECT="false">no</ANSWER>
+</QUESTION>
+
+</POLL>

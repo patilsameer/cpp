@@ -1,0 +1,6 @@
+Create a class First,
+The class shall have default constructor & constructor with parameter.
+Create objects of the class class using these constructors.
+
+create a data memeber id. 
+write method GetData as memeber of class, method should display class data memebers.
