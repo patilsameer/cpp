@@ -24,8 +24,15 @@ int main(){
     int cnt=count(a,a+6,3);
     cout<<"3 is found "<<cnt<<" times"<<endl; // print the count of 3
 
-    //search for a pattern in the array & return the start address of pattern
+    //search for a pattern in the array & return the start address of pattern in the array
     p=search(a,a+6,pattern,pattern+4);
-    for(i=0;i<4;i++)
-        cout<<p[i]<<endl;
+   
+
+    if(p==a+6){
+        cout<<"patter dose not exist in array"<<endl;
+    }
+    else{
+        for(i=0;i<4;i++)
+             cout<<p[i]<<endl;
+    }
 }
