@@ -62,7 +62,7 @@ int main()
             $(CC) $(CFLAGS) -c main.cpp
         -------------------------------------------------------------------
 
- 
+        you need to change it to config below
         ------------------------------------------------------------------
         CC=clang++
         CFLAGS=-stdlib=libc++ -std=c++11 -g -Wall -Werror -Wextra -I.
@@ -75,6 +75,9 @@ int main()
         main.o: main.cpp
             $(CC) $(CFLAGS) -c main.cpp
 
+        ----------------------------------------------------------------------- 
+
+        after these changes in MAC the below code will execute
     */
     itr1=find_if(mymap.begin(),mymap.end(),[&value] (const std::pair<int,string> &p){
         return value==p.second;
